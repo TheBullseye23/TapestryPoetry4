@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".act_write1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/tv1-title"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
+                android:text="Title of your poem"
+                android:textColor="@color/colorSecondary"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/newpoemtitle"
+                android:layout_width="340dp"
+                android:layout_height="58dp"
+                android:layout_below="@id/tv1-title"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorSecondary"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tv1-startpoem"
+                android:layout_width="301dp"
+                android:layout_height="57dp"
+                android:layout_below="@+id/newpoemtitle"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="81dp"
+                android:layout_marginEnd="27dp"
+                android:layout_marginRight="27dp"
+                android:text="Start your poem below"
+                android:textColor="@color/colorSecondary"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/NewPoemLines"
+                android:layout_width="329dp"
+                android:layout_height="160dp"
+                android:layout_below="@+id/tv1-startpoem"
+                android:layout_marginStart="29dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="29dp"
+                android:layout_marginRight="29dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="textMultiLine"
+                android:textColor="@color/colorSecondary"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btncreate"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/NewPoemLines"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="85dp"
+                android:layout_marginEnd="131dp"
+                android:layout_marginRight="131dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorSecondary"
+                android:text="Create Poem!"
+                android:elevation="3dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "646109295549",
+    "firebase_url": "https://tapestrypoetry4.firebaseio.com",
+    "project_id": "tapestrypoetry4",
+    "storage_bucket": "tapestrypoetry4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646109295549:android:e984e6b6f69790b3",
+        "android_client_info": {
+          "package_name": "com.hfad.tapestrypoetry4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646109295549-m0ar8ptqtf74p0m47gmu631i1o3b6aaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.tapestrypoetry4",
+            "certificate_hash": "85e2589179c40c26314344cdc5f15807f0c532ab"
+          }
+        },
+        {
+          "client_id": "646109295549-larnh9j283ssk7uh9v3adcb49st9v4o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-g478QwNCzBGOHcVHq592KRHgamJmFeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646109295549-larnh9j283ssk7uh9v3adcb49st9v4o9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
